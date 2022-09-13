@@ -1,15 +1,21 @@
 [
    {
-      "title":"vape 4 rblx",
+      "title":"Vape v4",
       "credits": "by xylex",
       "desc" : "For Roblox Bedwars! Vape for Roblox.",
-"script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Cat-Manner/Discord-Toolz/main/vape.txt\", true))()"
+      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Cat-Manner/Discord-Toolz/main/vape.txt\", true))()"
    },
    {
       "title":"ALCATRAZ-PF",
       "credits": "by Payson Holmes",
       "desc" : "A Phantom Forces script that aims for undetectability and speed.",
-"script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/P-DennyGamingYT/ALCATRAZ-PF/main/loader.lua\", true))()"
+      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/P-DennyGamingYT/ALCATRAZ-PF/main/loader.lua\", true))()"
+   },
+      {
+      "title":"DSM Pro",
+      "credits": "by Payson Holmes",
+      "desc" : "A Premium, Paid Quality, Destruction Simulator script.",
+      "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/P-DennyGamingYT/DSM-Pro/main/DSM.lua\", true))()"
    },
    {
       "title":"Alt delete",
@@ -98,7 +104,7 @@
       "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/Infinite%20Yield.txt\"))()"
    },
    {
-      "title":"Infinite jump",
+      "title":"Infinite Jump",
       "credits": "by ROBLOX",
       "desc" : "A very simple script that allows you to infinitely jump.",
       "script":"loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/ScriptStorage/InfiniteJump.txt\"))()"
