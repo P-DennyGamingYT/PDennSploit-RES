@@ -20,8 +20,11 @@ In this repository you can also find the Script Hub resources for PDennSploit. I
 template.
 
 > Title: Title of Script
+>
 > Developer: Creator/Developer of the script.
+>
 > Descritpion: The description of what the script does, what game it is for, etc. (Max: 2 sentences)
+>
 > Script: Link to script
 
 When requesting for a script to be added to the Script Hub, if it is your script, please give me a copy of the source code to look through so I can make sure
@@ -35,8 +38,11 @@ In this repository you will also be able to find PDennSploit Custom Themes made 
 to the theme list within one week of posting. When posting themes in the [discord server](https://dsc.gg/PDennSploit), please post them using the template below.
 
 > Title: Title of Theme
+>
 > Developer: Creator/Developer of the theme
+> 
 > Description: The description of what the theme contains and/or what it is based off of
+> 
 > Theme: Link to the theme download (customTheme.json)
 
 To create a custom theme, please refer to the custom themes channel in the [discord server](https://dsc.gg/PDennSploit)
