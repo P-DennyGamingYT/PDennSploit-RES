@@ -2,9 +2,7 @@
 
 Development Resources for PDennSploit. This includes development updates and releases.
 
-<span style="color:red;font-weight:700;font-size:20px">
-    WARNING!!! RESOURCES IN THIS REPOSITORY MAY BE UNSTABLE!!!
-</span>
+**WARNING!!! RESOURCES CONTAINED IN THIS REPOSITORY MAY BE UNSTABLE!**
 
 # Info
 
