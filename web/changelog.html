@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+<head>
+    <meta charset="utf-8" />
+    <title>PDennSploit - Changelog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PDennSploit is the #1 Free ROBLOX exploit." />
+    <meta name="keywords" content="DanSploit, krnl, krnlss, JJSploit, Synapse X, Script-Ware, PDennSploit, Roblox, Roblox Exploiting, Roblox Hacks, P-Denny, Payson Holmes, github" />
+    <meta name="author" content="Payson Holmes" />
+    <meta name="email" content="paysonholmes@gmail.com" />
+    <meta name="website" content="https://pdennsploit.ml/" />
+    <meta name="Version" content="v2.0.0b" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="https://ezfnv2-cloudflare-pages.pages.dev/assets/images/favicon.ico" />
+
+    <!-- Css -->
+    <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+    <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+    <!-- Bootstrap Css -->
+    <link href="https://ezfnv2-cloudflare-pages.pages.dev/assets/css/bootstrap.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="https://ezfnv2-cloudflare-pages.pages.dev/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://ezfnv2-cloudflare-pages.pages.dev/assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style Css-->
+    <link href="https://ezfnv2-cloudflare-pages.pages.dev/assets/css/style.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
+
+    <!-- Turnstile -->
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha" async defer></script>
+
+    <!-- Google Adsense -->
+    <script data-ad-client="ca-pub-8899997837601633" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <header id="topnav" class="defaultscroll sticky">
+        <div class="container">
+            <!-- Logo container-->
+            <a class="logo" href="https://ezfn.dev">
+                <img src="https://ezfn.dev/assets/images/ezfn-navbar-logo.png" height="24" class="logo-light-mode" alt="">
+                <img src="https://ezfn.dev/assets/images/ezfn-navbar-logo.png" height="24" class="logo-dark-mode" alt="">
+            </a>                
+            <!-- Logo End -->
+
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+
+            <!--Login button Start-->
+            <ul class="buy-button list-inline mb-0">
+                <li class="list-inline-item ps-1 mb-0" id="discord-invite-li">
+                    <a href="https://discord.com/invite/7SY3qNBKyD" target="_blank" class="btn btn-soft-primary ms-1"><i class="fab fa-discord"></i></a>
+                </li>
+
+                <li class="list-inline-item ps-1 mb-0">
+                    <a href="https://www.youtube.com/lupusleaks?sub_confirmation=1" class="btn btn-soft-danger ms-1" target="_blank"><i class="fab fa-youtube"></i> Subscribe</a>
+                </li>
+            
+                <li class="list-inline-item mb-0">
+                    <a href="javascript:void(0)" onclick="NavigateToAccountSettingsPressed()">
+                        <div class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="settings" class="fea icon-sm"></i></div>
+                    </a>
+                </li>
+            </ul>
+            <!--Login button End-->
+
+            <div id="navigation">
+                <!-- Navigation Menu-->   
+                <ul class="navigation-menu">
+                    <li><a href="https://ezfn.dev" class="sub-menu-item">Home</a></li>
+                    <li><a href="https://ezfn.dev/launcher/web-settings" class="sub-menu-item">Launcher</a></li>
+                    <li class="has-submenu parent-menu-item">
+                        <a href="javascript:void(0)">Lobby Utils</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="https://ezfn.dev/lobby-utils" class="sub-menu-item">Dashboard</a></li>
+                            <li><a href="https://ezfn.dev/lobby-utils/commands" class="sub-menu-item">Commands</a></li>
+                            <li><a href="widget.html" class="sub-menu-item">Creator</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://ezfn.dev/tutorials" class="sub-menu-item">Tutorials</a></li>
+                    <li><a href="https://ezfn.dev/faq" class="sub-menu-item">FAQ</a></li>
+                    <li><a href="https://ezfn.dev/changelog" class="sub-menu-item">Changelog</a></li>
+
+                    <!-- <li class="has-submenu parent-menu-item">
+                        <a href="javascript:void(0)">Custom Content</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="documentation.html" class="sub-menu-item">Explore</a></li>
+                            <li><a href="changelog.html" class="sub-menu-item">Pak Tool</a></li>
+                            <li><a href="widget.html" class="sub-menu-item">Creator</a></li>
+                        </ul>
+                    </li> -->
+                </ul><!--end navigation menu-->
+            </div><!--end navigation-->
+        </div>
+    </header><!--end header-->
+    <!-- Navbar End -->
+
+    <div class="modal fade" id="download-ezfn-modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded shadow border-0">
+                <div class="modal-body py-5">
+                    <div class="text-center">
+                        <img src="https://ezfn.dev/assets/images/modals/Download.svg" class="avatar avatar-medium rounded-circle shadow" alt="">
+                        <div class="mt-4">
+                            <h4>Launcher not installed/open!</h4>
+                            <p class="text-muted">
+                                If you did not install the launcher yet, you can install it <a target="_blank" href="https://ezfn.dev">here</a>.
+                                <br>Otherwise make sure you have it opened!
+                            </p>
+
+                            <!-- <div>
+                                <img src="https://ezfn.dev/assets/images/modals/VirusAlert.gif" style="width: 100%; height: auto;" alt="">
+                                <p class="text-muted">If you get a failed to download issue, follow the steps above, or read <a>this</a></p>
+                            </div> -->
+                        
+                            <!-- <div class="mt-4">
+                                <p class="text-muted">Want more infos about how to use EZFN?</p>
+                                <a href="javascript:void(0)" class="btn btn-primary">How to start</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <p class="text-muted">&#10084; Thanks for downloading EZFN, we hope you enjoy it and share it with your friends &#10084;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Hero Start -->
+    <section class="bg-half-170 bg-light d-table w-100">
+        <div class="container">
+            <div class="row mt-5 justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <div class="pages-heading">
+                        <h4 class="title mb-0"> EZFN InGame Status </h4>
+                    </div>
+                </div>  <!--end col-->
+            </div><!--end row-->
+            
+            <div class="position-breadcrumb">
+                <nav aria-label="breadcrumb" class="d-inline-block">
+                    <ul class="breadcrumb rounded shadow mb-0 px-4 py-2">
+                        <li class="breadcrumb-item"><a href="index.html">EZFN</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Status</li>
+                    </ul>
+                </nav>
+            </div>
+        </div> <!--end container-->
+    </section><!--end section-->
+    <!-- Hero End -->
+
+    <!-- Shape Start -->
+    <div class="position-relative">
+        <div class="shape overflow-hidden text-color-white">
+            <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+            </svg>
+        </div>
+    </div>
+    <!--Shape End-->  
+    
+    <!-- Changelog Start -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="p-4 shadow rounded border">
+                        <!-- v4.0.0 -->
+                        <h5>Version <span class="text-success">2.0.0</span> - 28th July 2022<span class="badge rounded-pill bg-danger ms-2">Latest Updated</span></h5>
+                        <ul class="list-unstyled mb-5">
+                            <li class="text-muted my-2 ms-3"><i data-feather="arrow-right-circle" class="fea icon-sm me-2"></i><span class="fw-bold">Added :</span> Added New <b>Design</b> for EZFN</li>
+                        </ul>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+    </section><!--end section-->
+    <!-- Changelog End -->
+
+    
+    <!-- Footer Start -->
+<footer class="footer footer-bar">
+    <div class="footer-py-30">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <div class="text-sm-start">
+                        <p class="mb-0">
+                            Made with <i class="mdi mdi-heart text-danger"></i>, © <script>document.write(new Date().getFullYear())</script> EZFN. <br>
+                            Our <a href="https://ezfn.dev/legal/privacy_policy">Privacy Policy</a>, <a href="https://ezfn.dev/legal/terms_of_service">Terms and Conditions</a>, <a href="https://ezfn.dev/legal/impressum">Impressum</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <ul class="list-unstyled social-icon foot-social-icon text-sm-end mb-0">
+                        <li class="list-inline-item mb-0"><a href="https://www.tiktok.com/@lupusleaks/" target="_blank" class="rounded"><i class="fab fa-tiktok icon-sm"></i></a></li>
+                        <li class="list-inline-item mb-0"><a href="https://ezfn.dev/discord" target="_blank" class="rounded"><i class="fab fa-discord icon-sm"></i></a></li>
+                        <li class="list-inline-item mb-0"><a href="https://www.instagram.com/lupusleaks/" target="_blank" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                        <li class="list-inline-item mb-0"><a href="https://twitter.com/lupusleaks" target="_blank" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                        <li class="list-inline-item mb-0"><a href="https://www.youtube.com/lupusleaks" target="_blank" class="rounded"><i data-feather="youtube" class="fea icon-sm fea-social"></i></a></li>
+                    </ul><!--end icon-->
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!--end footer-->
+<!-- Footer End -->
+
+    <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5">
+        <i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i>
+    </a>
+
+    <a href="#" onclick="changeTheme()" id="dark-mode-switch" class="btn btn-icon btn-primary dark-mode-switch">
+        <i data-feather="moon" class="icons"></i>
+    </a>
+
+    <!-- jQuery -->
+    <script src="https://ezfn.dev/assets/js/jquery.min.js"></script>
+    <script src="https://ezfn.dev/assets/js/jquery.easing.min.js"></script>
+
+    <!-- Notify -->
+    <script src="https://ezfn.dev/assets/js/bootstrap-notify.min.js"></script>
+
+    <script src="https://ezfn.dev/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ezfn.dev/assets/libs/tiny-slider/min/tiny-slider.js"></script>
+    <script src="https://ezfn.dev/assets/libs/feather-icons/feather.min.js"></script>
+    <script src="https://ezfn.dev/assets/js/plugins.init.js"></script>
+
+    <!-- Stuff that every EZFN site needs -->
+    <script src="https://ezfn.dev/assets/js/app.js"></script>
+
+    <!-- Parse User Agent of the client -->
+    <script src="https://ezfn.dev/assets/js/ua-parser.min.js"></script>
+
+    <!-- Cookies Start -->
+    <div class="card cookie-popup shadow rounded py-3 px-4">
+        <p class="text-muted mb-0">This website uses cookies to provide you with a great user experience. By using it, you accept our <a href="https://ezfn.dev/legal/privacy_policy" target="_blank" class="text-success h6">use of cookies</a></p>
+        <div class="cookie-popup-actions text-end">
+            <button><i class="uil uil-times text-dark fs-4"></i></button>
+        </div>
+    </div><!--Note: Cookies Js including in plugins.init.js (path like; js/plugins.init.js) and Cookies css including in _helper.scss (path like; scss/_helper.scss)-->
+    <!-- Cookies End -->
+
+    <script>
+        //=========================================//
+        /*/*      14) Cookies Policy               */
+        //=========================================//
+
+        try {
+            /* common fuctions */
+            function el(selector) { return document.querySelector(selector) }
+            function els(selector) { return document.querySelectorAll(selector) }
+            function on(selector, event, action) { els(selector).forEach(e => e.addEventListener(event, action)) }
+            function cookie(name) { 
+                let c = document.cookie.split('; ').find(cookie => cookie && cookie.startsWith(name+'='))
+                return c ? c.split('=')[1] : false; 
+            }
+
+            /* popup button hanler */
+            on('.cookie-popup button', 'click', () => {
+                el('.cookie-popup').classList.add('cookie-popup-accepted');
+                localStorage.setItem('cookie-accepted', 'true');
+            });
+
+            /* popup init hanler */
+            if (getCookie('cookie-accepted') !== "true") {
+                el('.cookie-popup').classList.add('cookie-popup-not-accepted');
+            } else {
+                el('.cookie-popup').classList.add('cookie-popup-accepted');
+            }
+        } catch (error) {
+        
+        }
+    </script>
+
+    <!-- Cloudflare Web Analytics -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d09a1c6c87e942a6800c994efb8160ce"}'></script>
+    <!-- End Cloudflare Web Analytics -->
+
+    <script src="https://ezfn.dev/assets/js/pages/ingame-status.js"></script>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d09a1c6c87e942a6800c994efb8160ce"}'></script><!-- Cloudflare Pages Analytics --></body>
+</html>
